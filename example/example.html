@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../toast.css" rel="stylesheet" />
+    <style>
+        .wrapper{box-shadow:0 0 6px rgba(0,0,0,0.5); text-align:center;width:500px;margin:100px auto;padding:200px 0; }
+
+        .btn{padding:6px 12px;}
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <button type="button" class="btn" data-type="info"> Info</button>
+        <button type="button" class="btn" data-type="warning"> Warning</button>
+        <button type="button" class="btn" data-type="error"> Error</button>
+        <button type="button" class="btn" data-type="success"> Success</button>
+    </div>
+
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="../toast.js"></script>
+    <script>
+        $(function () {
+            $('.btn').click(function () {
+                toast.show($(this).attr('data-type'), '身无彩凤双飞翼，心有灵犀一点通。', { timeOut: 2000 });
+            });
+        });
+       
+    </script>
+
+   
+</body>
+</html>
