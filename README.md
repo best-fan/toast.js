@@ -1,6 +1,6 @@
 # 效果预览
 
-![效果预览](http://i65.tinypic.com/2vsn4us.gif)
+![效果预览](http://i67.tinypic.com/2aj46dy.gif)
 
 # 如何使用
 
